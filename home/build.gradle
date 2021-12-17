@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.movieapp"
+        applicationId "com.example.home"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -29,18 +29,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    viewBinding{
-        enabled = true
-    }
 }
 
 dependencies {
     def nav_version = "2.3.5"
-
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
     //navigation component
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -49,9 +44,6 @@ dependencies {
     //retrofit
     implementation 'com.google.code.gson:gson:2.8.9'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-
-    //app modules
-    implementation project(path: ":home")
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
