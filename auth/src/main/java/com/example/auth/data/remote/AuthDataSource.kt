@@ -1,9 +1,8 @@
-package com.example.auth.data.remote
+package com.example.auth2.data.remote
 
-import com.example.auth.data.model.User
+import com.example.auth2.data.model.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.tasks.await
 
 class AuthDataSource {

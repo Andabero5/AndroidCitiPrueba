@@ -1,9 +1,8 @@
-package com.example.auth.presentación
+package com.example.auth2.presentation
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import com.example.auth.domain.AuthRepo
+import com.example.auth2.domain.AuthRepo
 
 class AuthViewModel(val repo: AuthRepo) : ViewModel() {
     suspend fun signUp(mail: String, password: String, name: String, DOB: String) = liveData {

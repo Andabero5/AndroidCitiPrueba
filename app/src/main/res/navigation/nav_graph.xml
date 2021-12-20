@@ -2,12 +2,8 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/signUpFragment">
+    app:startDestination="@id/auth_graph">
 
-    <fragment
-        android:id="@+id/signUpFragment"
-        android:name="com.example.auth.UI.SignUpFragment"
-        android:label="SignUpFragment" />
-
+    <include app:graph="@navigation/auth_graph"/>
 
 </navigation>

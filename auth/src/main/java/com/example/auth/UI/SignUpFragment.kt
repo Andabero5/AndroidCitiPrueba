@@ -1,10 +1,8 @@
-package com.example.auth.UI
+package com.example.auth2.UI
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import com.example.auth.R
 import com.example.auth.databinding.FragmentSignUpBinding
 

@@ -1,6 +1,4 @@
-package com.example.auth.domain
-
-import com.example.auth.data.remote.AuthDataSource
+package com.example.auth2.domain
 
 interface AuthRepo {
     suspend fun signUp (mail:String, password:String, name:String, DOB:String)
