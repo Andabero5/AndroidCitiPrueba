@@ -3,14 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ID139/Desktop/principal/Android/AndroidCitiPrueba/app/src/main/res/layout/activity_main.xml" value="0.3302083333333333" />
-        <entry key="..\:/Users/ID139/Desktop/principal/Android/AndroidCitiPrueba/auth/src/main/res/layout/fragment_sign_up.xml" value="0.3302083333333333" />
         <entry key="..\:/Users/ID139/Desktop/principal/Android/movieApp/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/ID139/Desktop/principal/Android/movieApp/auth/src/main/res/layout/fragment_sign_up.xml" value="0.5" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
